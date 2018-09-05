@@ -1,0 +1,14 @@
+#header {
+	padding: 20px;
+	background: #ccc;
+	}
+#content {
+	float: left; 
+	width: 66%;
+	margin-right: 6%;
+	}
+#footer {
+	clear: left;
+	padding: 20px;
+	background: #eee;
+	}
