@@ -8,8 +8,6 @@ import ScrollMemory from 'react-router-scroll-memory';
 // component
 import App  from './components/App';
 import SampleComponent from './components/sample_components/index';
-// extras
-import logo from './logo.svg';
 
 class AppRoutes extends Component {
     render () {

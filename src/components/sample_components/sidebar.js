@@ -17,7 +17,7 @@ class SampleSidebar extends Component {
   render() {
       const menuList = this.state.menu_list.map(menu => {
 	  return (
-             <li className="anchor" onClick={() => this.onMenuClick(menu)}>{menu}</li>
+             <li key={menu} className="anchor" onClick={() => this.onMenuClick(menu)}>{menu}</li>
 	  )
       });
 
