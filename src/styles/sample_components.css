@@ -12,3 +12,6 @@
 	padding: 20px;
 	background: #eee;
 	}
+li.anchor {
+        cursor : pointer;
+}
