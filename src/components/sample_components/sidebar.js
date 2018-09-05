@@ -7,7 +7,7 @@ import { selectMenu } from '../../actions/sample_component';
 
 class SampleSidebar extends Component {
   state = {
-      menu_list: ['foo', 'bar']
+      menu_list: ['Awesome Site', 'Wonderful Site']
   }
 
   onMenuClick = (menu) => {
