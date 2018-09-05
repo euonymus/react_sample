@@ -6,10 +6,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { LastLocationProvider } from 'react-router-last-location';
 import ScrollMemory from 'react-router-scroll-memory';
 // component
-import App  from './App';
+import App  from './components/App';
 // extras
 import logo from './logo.svg';
-import './App.css';
 
 class AppRoutes extends Component {
     render () {
